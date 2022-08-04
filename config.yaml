@@ -19,12 +19,14 @@ use_branches: [
 
 trunk: {
   name: "trunk",
+  revision: -1,
   trunk: True,
   share_branch: False,
 }
 
 v3.0-YP-changes: {
   name: "v3.0-YP-changes",
+  revision: -1,
   trunk: False,
   share_branch: False,
 }
