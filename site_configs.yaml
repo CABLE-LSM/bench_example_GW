@@ -1,23 +1,30 @@
 ## science configs
 #
 
-sci0:
-    {
-        cable_user%GS_SWITCH: "'medlyn'",
-        cable_user%FWSOIL_SWITCH: "'Haverd2013'",
+sci0: {
+    cable_user: {
+        GS_SWITCH: "medlyn",
+        FWSOIL_SWITCH: "Haverd2013"
     }
+}
 
-sci1:
-    {
-        cable_user%GS_SWITCH: "'leuning'",
-        cable_user%FWSOIL_SWITCH: "'Haverd2013'",
+sci1: {
+    cable_user: {
+        GS_SWITCH: "leuning",
+        FWSOIL_SWITCH: "Haverd2013"
     }
+}
 
-sci2:
-    { cable_user%GS_SWITCH: "'medlyn'", cable_user%FWSOIL_SWITCH: "'standard'" }
-
-sci3:
-    {
-        cable_user%GS_SWITCH: "'leuning'",
-        cable_user%FWSOIL_SWITCH: "'standard'",
+sci2: {
+    cable_user: {
+        GS_SWITCH: "medlyn",
+        FWSOIL_SWITCH: "standard"
     }
+}
+sci3: {
+    cable_user: {
+        GS_SWITCH: "leuning",
+        FWSOIL_SWITCH: "standard"
+    }
+}
+
