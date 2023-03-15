@@ -13,6 +13,15 @@
 user: ccc561
 project: w97
 
+# The 'experiment' key specifies the met forcing files used to run CABLE.
+# Experiments are defined in the 'NRI Land testing' workspace
+# on modelevaluation.org. The valid experiments are:
+# - five-site-test
+# - forty-two-site-test
+# The user may also run a single site from one of the five sites by
+# specifying the site ID, for example: AU-Tum
+experiment: five-site-test
+
 realisations: {
   0: {
     name: "trunk",
