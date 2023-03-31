@@ -1,4 +1,9 @@
 # Example configuration file for running the CABLE benchmarking.
+# 
+# Note, optional keys are available in this config file. See
+# http://cable-lsm.github.io/benchcab/user_guide/config_options/
+# for documentation on all the available keys.
+# 
 # This file is in YAML format. You can get information on the syntax here:
 # https://yaml.org/spec/1.2.2/#chapter-2-language-overview
 # Quick tips:
@@ -13,25 +18,16 @@
 user: ccc561
 project: w97
 
-# The 'experiment' key specifies the met forcing files used to run CABLE.
-# Experiments are defined in the 'NRI Land testing' workspace
-# on modelevaluation.org. The valid experiments are:
-# - five-site-test
-# - forty-two-site-test
-# The user may also run a single site from one of the five sites by
-# specifying the site ID, for example: AU-Tum
 experiment: five-site-test
 
 realisations: {
   0: {
     name: "trunk",
-    revision: -1,
     trunk: True,
     share_branch: False,
   },
   1: {
     name: "v3.0-YP-changes",
-    revision: -1,
     trunk: False,
     share_branch: False,
   }
