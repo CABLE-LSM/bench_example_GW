@@ -20,18 +20,18 @@ project: w97
 
 experiment: five-site-test
 
-realisations: {
-  0: {
+realisations: [
+  {
     name: "trunk",
     trunk: True,
     share_branch: False,
   },
-  1: {
+  {
     name: "v3.0-YP-changes",
     trunk: False,
     share_branch: False,
   }
-}
+]
 
 modules: [
   intel-compiler/2021.1.1,
