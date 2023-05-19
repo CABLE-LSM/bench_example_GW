@@ -21,11 +21,9 @@ experiment: five-site-test
 
 realisations: [
   {
-    name: "trunk",
     path: "trunk",
   },
   {
-    name: "v3.0-YP-changes",
     path: "branches/Users/ccc561/v3.0-YP-changes",
   }
 ]
