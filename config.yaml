@@ -15,21 +15,16 @@
 #
 # Strings can be given with or without double or single quotes.
 
-user: ccc561
 project: w97
 
 experiment: five-site-test
 
 realisations: [
   {
-    name: "trunk",
-    trunk: True,
-    share_branch: False,
+    path: "trunk",
   },
   {
-    name: "v3.0-YP-changes",
-    trunk: False,
-    share_branch: False,
+    path: "branches/Users/ccc561/v3.0-YP-changes",
   }
 ]
 
