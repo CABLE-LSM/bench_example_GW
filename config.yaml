@@ -15,16 +15,17 @@
 #
 # Strings can be given with or without double or single quotes.
 
-project: w97
+project: tm70
 
 experiment: five-site-test
 
 realisations: [
   {
-    path: "trunk",
+    path: "trunk"
   },
   {
-    path: "branches/Users/ccc561/v3.0-YP-changes",
+    path: "branches/Users/mm3972/CABLE_GW_into_trunk_version2",
+    build_script: offline/build.ksh
   }
 ]
 
